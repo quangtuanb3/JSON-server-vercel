@@ -1,9 +1,128 @@
 {
-  "posts": [
-    { "id": 1, "title": "json-server", "author": "typicode" }
-  ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 }
-  ],
-  "profile": { "name": "typicode" }
+  "products": [
+    {
+      "id": 1,
+      "name": "Laptop",
+      "price": 1200,
+      "description": "A portable computer that is suitable for various tasks.",
+      "categories": [
+        "Computing",
+        "Electronics"
+      ],
+      "agency": "ABC Technology"
+    },
+    {
+      "id": 2,
+      "name": "Smartphone",
+      "price": 800,
+      "description": "A mobile phone with advanced features and functionalities.",
+      "categories": [
+        "Communications",
+        "Electronics"
+      ],
+      "agency": "XYZ Communications"
+    },
+    {
+      "id": 3,
+      "name": "Smartwatch",
+      "price": 250,
+      "description": "A wearable device that offers various functions like fitness tracking and notifications.",
+      "categories": [
+        "Wearables",
+        "Electronics"
+      ],
+      "agency": "PQR Innovations"
+    },
+    {
+      "id": 4,
+      "name": "Headphones",
+      "price": 150,
+      "description": "High-quality over-ear headphones with noise-cancellation features.",
+      "categories": [
+        "Audio",
+        "Electronics"
+      ],
+      "agency": "AudioTech"
+    },
+    {
+      "id": 5,
+      "name": "Desktop Computer",
+      "price": 1800,
+      "description": "A powerful computer system suitable for heavy computing tasks.",
+      "categories": [
+        "Computing",
+        "Electronics"
+      ],
+      "agency": "TechPro"
+    },
+    {
+      "id": 6,
+      "name": "Tablet",
+      "price": 400,
+      "description": "A portable device that offers the convenience of a computer in a compact form.",
+      "categories": [
+        "Computing",
+        "Electronics"
+      ],
+      "agency": "Mobile Computing Inc."
+    },
+    {
+      "id": 7,
+      "name": "Wireless Earbuds",
+      "price": 100,
+      "description": "Compact earbuds with wireless connectivity and long battery life.",
+      "categories": [
+        "Audio",
+        "Electronics"
+      ],
+      "agency": "SoundWave"
+    },
+    {
+      "id": 8,
+      "name": "Gaming Console",
+      "price": 500,
+      "description": "A dedicated gaming device with high-performance graphics and gameplay capabilities.",
+      "categories": [
+        "Gaming",
+        "Electronics"
+      ],
+      "agency": "GameTech"
+    },
+    {
+      "id": 9,
+      "name": "Digital Camera",
+      "price": 600,
+      "description": "A high-resolution camera with advanced shooting modes and features.",
+      "categories": [
+        "Photography",
+        "Electronics"
+      ],
+      "agency": "CapturePro"
+    },
+    {
+      "id": 10,
+      "name": "Wireless Router",
+      "price": 80,
+      "description": "A networking device that provides wireless internet connectivity for multiple devices.",
+      "categories": [
+        "Networking",
+        "Electronics"
+      ],
+      "agency": "NetConnect"
+    },
+    {
+      "name": "Charlotte Farrell",
+      "price": 760,
+      "description": "Rerum maiores deleni",
+      "categories": [
+        "Computing",
+        "Electronics",
+        "Wearables",
+        "Photography",
+        "Networking"
+      ],
+      "agency": "CapturePro",
+      "id": 11
+    }
+  ]
 }
