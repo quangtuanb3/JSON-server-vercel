@@ -13,7 +13,8 @@
 
 
 // // Comment out to allow write operations
-// const router = jsonServer.router('db.json')
+// // const router = jsonServer.router('db.json')
+// const router = jsonServer.router(path.join(__dirname, 'db.json'))
 
 // const middlewares = jsonServer.defaults()
 
@@ -28,8 +29,18 @@
 //     console.log('JSON Server is running')
 // })
 
+// server.use(jsonServer.bodyParser)
+// server.use((req, res, next) => {
+//     if (req.method === 'POST') {
+//         req.body.createdAt = Date.now()
+//     }
+//     // Continue to JSON Server router
+//     next()
+// })
+
 // // Export the Server API
 // module.exports = server
+
 
 // api/server.js
 
