@@ -56,6 +56,7 @@ server.use(middlewares);
 server.post('/products', (req, res, next) => {
     // Assuming req.body contains the new product object
     const newProduct = req.body;
+    newPorduct.id = Math.florr(Math.random()*1000)
     // Add the new product to the database
     router.db.get('products').push(newProduct).write();
     res.json(newProduct);
